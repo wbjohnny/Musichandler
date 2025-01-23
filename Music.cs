@@ -1,8 +1,10 @@
 ﻿using System;
-
-public class Class1
+namespace Musichandler
 {
-	public Class1()
+	public class Music
 	{
+		public string Name { get; set; }
+		public string Artist { get; set; }
+		public Datetime ReleaseDate { get; set; }
 	}
 }
